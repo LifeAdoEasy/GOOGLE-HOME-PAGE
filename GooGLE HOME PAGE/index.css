@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 500px;
+  margin: auto;
+  display: block;
+}
+
+.searchbox {
+  position: relative;
+}
+
+input {
+  width: 500px;
+  height: 50px;
+  border-radius: 25px;
+  border: 2px solid transparent;
+  margin: auto;
+  display: block;
+  padding: 0 70px;
+  font-size: 18px;
+  transition: 2s;
+  box-shadow: 1px 2px 2px darkgray;
+}
+
+.m {
+  width: 25px;
+  position: absolute;
+  right: 475px;
+  top: 13px;
+}
+.s {
+  width: 20px;
+  position: absolute;
+  left: 445px;
+  top: 17px;
+}
+.c {
+  width: 25px;
+  position: absolute;
+  right: 445px;
+  top: 13px;
+}
+
+.button{
+  /* background-color: blue; */
+  display: flex;
+  height: 30px;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 20px;
+  margin: 20px;
+}
+.a .b{
+  width: 150px;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 5px;
+  color: gray;
+  cursor: pointer;
+}
+/* .b{
+  width: 150px;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 5px;
+  color: gray;
+  cursor: pointer;
+} */
+
+
+.button {
+/* background-color: brown; */
+/* width: 355px;
+margin: auto;
+border-radius: 4px solid transparent; */
+/* position: relative; */
+}
+.a{
+  /* background-color: brown; */
+  /* width: 150px;
+  font-weight: bolder;
+  font-size: 14px;
+  padding: 5px;
+  margin: 20px auto;
+  margin-right: 20px;
+  color: grey;
+  cursor: pointer; */
+  /* position: absolute;
+  left: 300px; */
+}
+.b{
+  /* background-color: brown; */
+  /* width: 150px;
+  font-weight: bolder;
+  font-size: 14px;
+  padding: 5px;
+  margin: 20px auto;
+  color: grey;
+  cursor: pointer; */
+  /* position: absolute;
+  left: 475px; */
+}
+
+button:hover {
+  background-color: red;
+  color: green;
+  transition: 1s;
+}
